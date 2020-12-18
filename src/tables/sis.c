@@ -852,7 +852,7 @@ void dvbpsi_sis_sections_decode(dvbpsi_t* p_dvbpsi, dvbpsi_sis_t* p_sis,
                     if (!p_sis->p_splice_command)
                         dvbpsi_error(p_dvbpsi, "SIS decoder",
                                      "time_signal command is invalid");
-                        break;
+                    break;
                 case 0x07: /* bandwidth_reservation */
                     break;
                 default:
